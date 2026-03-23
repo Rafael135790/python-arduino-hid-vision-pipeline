@@ -145,7 +145,7 @@ A aplicação inclui mecanismos de tolerância a falhas:
 
 ---
 
-## Classe `NeuroMotor`
+## Classe `NeuroMotor` humanizaçao
 
 A classe `NeuroMotor` implementa uma camada de suavização e modelagem temporal do movimento.
 
