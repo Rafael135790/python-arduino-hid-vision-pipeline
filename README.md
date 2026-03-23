@@ -239,7 +239,12 @@ Além do sketch, este projeto inclui modificações em arquivos do core USB usad
 
 Essas alterações afetam diretamente:
 
-- descriptors;
+### Otimização de Performance:  
+- Upgrade para 16-bitAnteriormente: o sistema operava com coordenadas de 8-bit (-127 a 127). Atualizei a
+lógica de processamento para 16-bit (-32767 a 32767), o que traz melhorias críticas
+Redução de Latência: Ao utilizar uma escala maior, eliminei a necessidade de enviar múltiplos pacotes de dados para movimentos longos. O deslocamento é calculado e enviado em um único ciclo, reduzindo o atraso de processamento (input lag).
+- Alta Precisão: A resolução expandida permite movimentos muito mais suaves e precisos, evitando o efeito de "pulo" (clipping) comum em escalas menores.
+- Eficiência Serial: Menos chamadas de escrita na porta serial significam menor carga de CPU tanto no computador quanto no Arduino, garantindo uma resposta quase instantânea.
 - classe do dispositivo;
 - composição de interfaces;
 - tamanho de endpoints;
@@ -253,7 +258,7 @@ Essas alterações afetam diretamente:
 - suporte explícito a endpoint de 16 bytes;
 - preservação da integração com `PluggableUSB`.
 
-Como o Leonardo R3 expõe diretamente sua interface USB pelo ATmega32U4, essas alterações fazem parte estrutural do projeto, porem podem ser usadas com um hid projects convencional de 8 bits 
+Como o Leonardo R3 expõe diretamente sua interface USB pelo ATmega32U4, essas alterações fazem parte estrutural do projeto, porem podem ser usadas com um hid projects convencional de 8 bits. 
 
 ---
 
