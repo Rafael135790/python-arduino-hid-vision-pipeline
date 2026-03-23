@@ -1,6 +1,6 @@
 # Realtime Vision Pipeline with Arduino Leonardo R3 HID Bridge
 
-Projeto experimental de **visão computacional em tempo real** integrado a um **Arduino Leonardo R3** para transporte de comandos via **HID/RawHID**, com foco em:
+Projeto experimental de **visão computacional em tempo real** ou pode ser chamado de >aim color< integrado a um **Arduino Leonardo R3** para transporte de comandos via **HID/RawHID**, com foco em:
 
 - baixa latência;
 - processamento em janela reduzida;
