@@ -317,12 +317,17 @@ Este repositório documenta modificações e integração sobre essas bases, e n
 
 ## Finalidade
 
-Este projeto é apresentado como estudo técnico de:
+### Escopo do Estudo Técnico
+Este projeto foi desenvolvido como uma prova de conceito (PoC) e material de estudo sobre a stack de comunicação entre hardware e software, abrangendo:
+- Visão Computacional em Tempo Real: Processamento de frames e detecção de padrões com baixa latência.
+- Protocolos HID e RawHID: Implementação de comunicação direta via pacotes brutos, explorando as camadas do protocolo USB.
+- Hardware Embarcado (ATmega32U4): Utilização do suporte nativo a USB do chip para emulação de periféricos sem intermediários (USB-to-Serial).
+- Integração Python <> Firmware: Orquestração de lógica de alto nível em Python com execução de baixo nível em C++ (Arduino).
+- Robustez de Barramento: Técnicas para recuperação de conexão USB e tratamento de erros de comunicação para garantir a continuidade da execução.
 
-- visão computacional em tempo real;
-- HID e RawHID;
-- USB nativo do ATmega32U4;
-- integração entre software Python e firmware embarcado;
-- recuperação de barramento USB e robustez de execução.
-  # ATENÇAO
-- QUALQUER USO INDEVIDO EM JOGOS FPS E TOTALMENTE RESPONSABILIDADE DO USUARIO
+## ⚠️ AVISO DE RESPONSABILIDADE
+Este repositório tem fins estritamente educativos e de pesquisa. O objetivo é demonstrar como a comunicação RawHID e o processamento de imagem funcionam na prática.
+Uso em Jogos: O uso destas ferramentas em jogos online (FPS ou outros) pode violar os Termos de Serviço (ToS) das desenvolvedoras e resultar em banimentos permanentes.
+Responsabilidade: O autor deste repositório não se responsabiliza por qualquer uso indevido, aplicação em ambientes competitivos ou danos causados por modificações no código. 
+Ética: Encorajo o uso deste conhecimento para o desenvolvimento de tecnologias assistivas, automação industrial ou interfaces criativas de usuário.
+Ao baixar ou utilizar este código, o usuário assume total responsabilidade por suas ações.
