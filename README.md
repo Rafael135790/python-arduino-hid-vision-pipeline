@@ -108,30 +108,6 @@ Neste projeto, o Leonardo R3 atua como:
 
 ---
 
-## Estrutura do projeto
-
-```text
-realtime-vision-pipeline-leonardo-r3/
-├─ README.md
-├─ LICENSE
-├─ .gitignore
-├─ python/
-│  └─ vision_hid_bridge.py
-├─ arduino/
-│  └─ leonardo_r3_hid_bridge/
-│     └─ leonardo_r3_hid_bridge.ino
-├─ core_patches/
-│  ├─ USBAPI_modified.cpp
-│  └─ USBDesc_modified.h
-└─ docs/
-   ├─ architecture.md
-   ├─ protocol.md
-   ├─ leonardo-r3-notes.md
-   └─ implementation-details.md
-```
-
----
-
 ## Camada Python
 
 A aplicação Python é responsável por:
@@ -281,36 +257,6 @@ Como o Leonardo R3 expõe diretamente sua interface USB pelo ATmega32U4, essas a
 
 ---
 
-## Como publicar este projeto no GitHub
-
-### Onde cada arquivo entra
-
-Na raiz do repositório:
-
-- `README.md`
-- `LICENSE`
-- `.gitignore`
-
-Dentro da pasta `docs/`:
-
-- `architecture.md`
-- `protocol.md`
-- `leonardo-r3-notes.md`
-- `implementation-details.md`
-
-Dentro da pasta `python/`:
-
-- seu código Python principal
-
-Dentro da pasta `arduino/leonardo_r3_hid_bridge/`:
-
-- seu sketch `.ino`
-
-Dentro da pasta `core_patches/`:
-
-- seus arquivos modificados do core USB/HID
-
----
 # COMO USAR
 ## Requisitos
 
