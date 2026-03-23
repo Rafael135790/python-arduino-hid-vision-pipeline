@@ -307,7 +307,7 @@ Caso não funcione, altere o número da interface gradualmente (1, 2, 3...) até
 
 ### Aviso de licenciamento
 
-Os arquivos em `core_patches/` são derivados de componentes open source do ecossistema Arduino e mantêm seus avisos de copyright e licenças originais.
+Os arquivos em `Modificaçoes arduino IDE/` são derivados de componentes open source do ecossistema Arduino e mantêm seus avisos de copyright e licenças originais.
 
 Este repositório documenta modificações e integração sobre essas bases, e não reivindica autoria exclusiva sobre o código-fonte originalmente distribuído por esses projetos.
 
