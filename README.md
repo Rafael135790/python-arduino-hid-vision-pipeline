@@ -337,26 +337,26 @@ pip install hid dxcam opencv-python numpy
 - dispositivo USB HID externo compatível com o parser (mouse)
 - cabo USB confiável
 - alimentação estável
-## Configuração no Jogo:
+### Configuração no Jogo:
 
 Defina o contorno (ou capa) dos personagens para a cor roxa.
 
 O jogo deve ser executado obrigatoriamente em Modo Janela. O script não funcionará em Tela Cheia.
 
-## Configuração do Hardware (Arduino):
+### Configuração do Hardware (Arduino):
 
 No início do código Python, localize a seção de VID e PID.
 
 Substitua os valores padrão pelos IDs específicos do seu Arduino.
 
-## Configuração de Interface:
+### Configuração de Interface:
 
 O código está configurado inicialmente para a Interface 0.
 
 Caso não funcione, altere o número da interface gradualmente (1, 2, 3...) até encontrar a interface correta para o seu dispositivo.
 ---
 
-## Aviso de licenciamento
+### Aviso de licenciamento
 
 Os arquivos em `core_patches/` são derivados de componentes open source do ecossistema Arduino e mantêm seus avisos de copyright e licenças originais.
 
