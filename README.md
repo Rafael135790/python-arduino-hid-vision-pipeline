@@ -253,7 +253,7 @@ Essas alterações afetam diretamente:
 - suporte explícito a endpoint de 16 bytes;
 - preservação da integração com `PluggableUSB`.
 
-Como o Leonardo R3 expõe diretamente sua interface USB pelo ATmega32U4, essas alterações fazem parte estrutural do projeto.
+Como o Leonardo R3 expõe diretamente sua interface USB pelo ATmega32U4, essas alterações fazem parte estrutural do projeto, porem podem ser usadas com um hid projects convencional de 8 bits 
 
 ---
 
