@@ -318,13 +318,13 @@ Você pode alterar o comportamento do movimento mudando alguns valores no códig
 
 ## Agressividade (velocidade)
 no seu python busque por:
-self.aggression = random.uniform(0.75, 0.95)
+### self.aggression = random.uniform(0.75, 0.95)
 - maior → mais rápido
 - menor → mais suave
-self.reaction_end = now + random.triangular(0.08, 0.15, 0.11)
+### self.reaction_end = now + random.triangular(0.08, 0.15, 0.11)
 - maior → mais rápido
 - menor → mais suave
-MAX_HID_ABS_MOVE = 20
+### MAX_HID_ABS_MOVE = 20
 - maior → movimentos mais fortes
 - menor → movimentos mais suaves
 ## ⚠️ Altere um parâmetro por vez para entender o efeito.
